@@ -1,122 +1,179 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin: 0px;
+    padding: 0px;
 }
-
-body {
-    background-color: whitesmoke;
-    font-family: Arial, sans-serif;
-}
-
-nav {
+.navigation{
     display: flex;
-    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(165, 177, 165);
     justify-content: space-between;
-    padding: 25px 40px;
-    background-color: grey;
+    margin-bottom: 20px;
+    position:sticky;
+     margin: 12px;
     border-radius: 12px;
-}
 
-nav img {
-    width: 90px;
-    height: 90px;
+}
+.navigation img{
+    height: 70px;
+    width:70px;
     border-radius: 50%;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 35px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: darkred;
-}
-
-.main-body {
-    background-color: lightgray;
-    margin-top: 25px;
-    border-radius: 12px;
-    display: flex;
-    padding: 40px;
-    gap: 30px;
-}
-
-#hello {
-    color: black;
-    font-size: 28px;
-    font-weight: 500;
-}
-
-#name {
-    color: black;
+    border: 3px solid black;
+    margin: 20px;
     display: block;
-    font-size: 34px;
-    font-weight: 600;
-    margin-top: 10px;
-
+    
 }
-
-.introduction {
-    margin-left: 30px;
+.order{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    margin: 40px;
+    list-style: none;
+    
 }
-
-.images {
-    height: 300px;
-    width: 280px;
-    border-radius: 20px;
-}
-
-.paragraph {
+.order li a{
     color: black;
-    margin-top: 210px;
-    margin-right: 500px;
-    gap: 20px;
-    font-size: 15px;
+    text-decoration: none;
+    font-size: larger;
 }
-.about_me{
+.main-body{
+    background-color: rgb(249, 247, 246);
+    position: relative;
+    height: 1250px;
+    border: 2px solid rgb(218, 187, 183);
+    border-radius: 12px;
+     margin: 12px;
+}
+.images{
+    height: 600px;
+    width: 500px;
+    border-radius: 12px;
+    position: absolute;
+    top: 5%;
+    display: inline-block;
+    left: 64%;
+}
+#hello{
+    color: rgb(11, 8, 8);
+    display: block;
+    margin: 24px 48px;
+    font-size:xx-large
+}
+#name{
+        color: rgb(32, 23, 23);
+    display: block;
+    margin-left: 65px;
+    font-size:xx-large
+}
+.paragraph{
+    color: gold;
+    font-size: large;
+    display: block;
+
+}
+.para{
+    width: 400px;
+    display: block;
+    margin: 19px;
+    
+}
+.about{
+    color: rgb(11, 11, 10);
     font-size: xx-large;
-    color: black;
-       color: green;
-    margin-top: 310px;
-    margin-right: 500px
+    margin-left: 50px;
+    text-decoration:underline;
+
 }
-form{
-    margin-top: 600px;
-margin: 50px;
+.tables,tr,th,td{
+    border: 1px solid rgb(155, 141, 141);
+    border-collapse: collapse;
+    padding: 5px;
+    width: 300px;
+    margin: 25px 50px;
+   
+ 
+}
+th{
+    background-color: black;
+    color: aliceblue;
+}
+.imgs{
+    display: flex;
+    gap: 50px;
+    margin: 80px 50px;
+}
+.imgs img{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+}
+.tech-stack p{
+    font-size: x-large;
+    color:black ;
+    margin: 80px 80px;
+    text-decoration:underline;
+}
+.form,input,textarea {
+padding: 12px;
+border-radius: 8px;
+margin: 2px;
+
+}
+input,textarea {
+    color: rgb(11, 11, 11);
+    font-size: medium;
+    margin: 6px 30px;
+}
+#formdivs{
+    border: 2px solid gold;
+    padding:8px;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 12px 90px;
+}
+.btns{
+    padding: 5px;
+    border-radius: 3px;
+    margin: 20px 50px;
+    background-color: rgb(1, 1, 1);
+    color: white;
+}
+.btns:hover{
+        background-color:white;
+    color: rgb(1, 1, 1);
+    cursor: pointer;
+
+}
+.formdiv span{
+    color: rgb(11, 11, 10);
+    font-size: xx-large;
+    margin-left: 50px;
+    text-decoration:underline;
+
 }
 footer{
-    background-color: lightgray;
+    background-color: rgb(205, 156, 156);
+padding: 12px;
+    height: 200px;
     border-radius: 12px;
-    height: 100px;
-    margin-top: 25px;
-    align-items: center;
-    padding: 50px;
-    color: black;
-}
-#email{
-    color:black;
-    margin-top: 25px;
-    margin-left: 500px;
-    font-size: large;
+justify-content: center;
+align-items: center;
+display: flex;
+    margin: 12px;
 
 }
-#number{
-     color: black;
-    margin-top: 90px;
-    margin-left: 500px;
-    font-size: large;
-}
 .githubs{
-    margin-top: 25px;
-    height: 50px;
-    width: 50px;
+
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
+}
+footer span{
+    font-size:small;
+
+   left: 50%;
+   top: 12%;
+   margin: 12px;
+  
 }
