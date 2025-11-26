@@ -14,4 +14,4 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: './workshop_1'
+          path: './workshop_1'  
