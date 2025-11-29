@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    /*scroll-behavior: smooth;*/
+    scroll-behavior: smooth;
 }
 
 
@@ -60,11 +60,12 @@
 .main-body{
     background-color: rgb(249, 247, 246);
     position: relative;
-    height: 2000px;
+    height:2000px;
     border: 2px solid rgb(218, 187, 183);
     border-radius: 12px;
      margin: 12px;
      margin-bottom: 50px;
+
 }
 .images{
     height: 580px;
@@ -74,7 +75,8 @@
     top: 5%;
     display: inline-block;
     left: 62%;
-    object-fit: fill;
+        object-fit: cover;
+
 }
 #hello{
     color: rgb(11, 8, 8);
@@ -157,23 +159,6 @@ input,textarea {
     margin: 12px 90px;
 }
 .btns{
-    padding: 5px;
-    border-radius: 3px;
-    margin: 20px 50px;
-    background-color: rgb(1, 1, 1);
-    color: white;
-}
-.btns:hover{
-        background-color:white;
-    color: rgb(1, 1, 1);
-    cursor: pointer;
-
-}
-.formdiv span{
-    color: rgb(11, 11, 10);
-    font-size: xx-large;
-    margin-left: 50px;
-    text-decoration:underline;
 
 }
 footer{
@@ -239,3 +224,86 @@ footer span{
 .gallery img{
     object-fit: cover;
 }
+
+@media (max-width: 768px) {
+
+    .
+     {
+        display: block;
+        font-size: 32px;
+        background: none;
+        border: none;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .order {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(165, 177, 165);
+        position: absolute;
+        top: 120px;
+        right: 0;
+        width: 200px;
+        border-radius: 0 0 10px 10px;
+        padding: 20px;
+        gap: 20px;
+        z-index: 1000;
+    }
+
+    .order.active {
+        display: flex;
+    }
+    .hamburger{
+        display: flex;
+    }
+
+    .navigation {
+        height: 90px;
+    }
+
+    .navigation img {
+        height: 55px;
+        width: 55px;
+        margin: 15px;
+    }
+
+    .images {
+        position: static;
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .videos,
+    .video {
+        height: 250px;
+    }
+
+    .introduction #hello,
+    .introduction #name {
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .imgs {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .tables {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    #formdivs {
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+

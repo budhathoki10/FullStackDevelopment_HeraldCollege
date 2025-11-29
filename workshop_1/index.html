@@ -9,10 +9,13 @@
 <body>
 
 <header>
+    <nav class="navigation">
 
-        <nav class="navigation">
         <img src="https://i.guim.co.uk/img/media/4c4011487171b344b673a15bae79f73db06c5d67/0_65_3000_1799/master/3000.jpg?width=465&dpr=1&s=none&crop=none" alt="developer">
-        <ul class="order">
+
+        <button class="hamburger" id="hamburgerBtn" style="display: none;">☰</button>
+
+        <ul class="order" id="mobileMenu">
             <li><a href="home.html">Home</a></li>
             <li><a href="#abt">About</a></li>
             <li><a href="#club">Clubs</a></li>
@@ -20,126 +23,104 @@
             <li><a href="#Portfolio">Portfolio</a></li>
             <li><a href="#formdivs">Contact</a></li>
         </ul>
+
     </nav>
 
 </header>
-    <section class="videos">
-            <video controls class="video">
-            <source src="MEXICO.mp4" type="video/mp4">
-        </video>
+
+<section class="videos">
+    <video controls class="video">
+        <source src="MEXICO.mp4" type="video/mp4">
+    </video>
 </section>
 
+<section class="main-body">
 
-    <section class="main-body">
-        <section class="introduction">
-            <span id="hello">Hello, I'm</span>
-            <span id="name">Lionel Andres Messi</span>
-        </section>
+    <section class="introduction">
+        <span id="hello">Hello, I'm</span>
+        <span id="name">Lionel Andres Messi</span>
+    </section>
 
-        <section class="para"> 
-            <p class="paragraph">
-                I was born on 24 June 1987 in Rosario, Santa Fe Province. I was the third of four children of Jorge Messi, a steel factory manager, and his wife Celia Cuccittini, who worked in a magnet manufacturing workshop. On his father's side, he is of Italian and Spanish descent, the great-grandson of immigrants from the north-central.
-        </section>
-        <section class="table_section">
-            <span class="about" id="abt">About me</span>
+    <section class="para">
+        <p class="paragraph">
+           I was born on 24 June 1987 in Rosario, Santa Fe Province. I was the third of four children of Jorge Messi, a steel factory manager, and his wife Celia Cuccittini, who worked in a magnet manufacturing workshop. On his father's side, he is of Italian and Spanish descent, the great-grandson of immigrants from the north-central.
+        </p>
+    </section>
+
+    <section class="table_section">
+        <span class="about" id="abt">About me</span>
+
+        <div class="table-container">
             <table class="tables">
-  <tr>
-    <th>Clubs</th>
-    <th>Goals</th>
-   
-  </tr>
-    <tr>
-    <td>Old boys</td>
-    <td>234</td>    
-  </tr>
-  <tr>
-    <td>Barcelona</td>
-    <td>672</td>    
-  </tr>
-    <tr>
-    <td>Paris</td>
-    <td>32</td>    
-  </tr>
-    <tr>
-    <td>Inter miami</td>
-    <td>77</td>    
-  </tr>
-</table>
+                <tr>
+                    <th>Clubs</th>
+                    <th>Goals</th>
+                </tr>
+                <tr><td>Old boys</td><td>234</td></tr>
+                <tr><td>Barcelona</td><td>672</td></tr>
+                <tr><td>Paris</td><td>32</td></tr>
+                <tr><td>Inter Miami</td><td>77</td></tr>
+            </table>
+        </div>
+    </section>
+
+    <aside class="side">
+        <img class="images" src="https://cdn1.intermiami.news/uploads/52/2024/12/GettyImages-1450131991-1140x760.jpg" alt="profile">
+    </aside>
+
+    <section class="tech-stack">
+        <p id="club">Clubs:</p>
+
+        <section class="imgs">
+            <img src="https://i.scdn.co/image/ab6775700000ee85a1f4b0bde3a703cd601f7fdc">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Inter_Miami_CF_logo.svg/250px-Inter_Miami_CF_logo.svg.png">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Escudo_del_Club_Atl%C3%A9tico_Newell%27s_Old_Boys_de_Rosario.svg/976px-Escudo_del_Club_Atl%C3%A9tico_Newell%27s_Old_Boys_de_Rosario.svg.png">
+            <img src="https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2052/live/4d614ac0-f52c-11eb-8617-87bebb01a75e.jpg">
         </section>
 
+    </section>
 
-         <aside class="side">
-            <img class="images" src="https://cdn1.intermiami.news/uploads/52/2024/12/GettyImages-1450131991-1140x760.jpg" alt="profile">
-        </aside>
-        <section class="tech-stack">
-            <p id="club">Clubs:</p>
-            <section class="imgs">
-                <a href="https://www.w3schools.com/js/default.asp"><img src="https://i.scdn.co/image/ab6775700000ee85a1f4b0bde3a703cd601f7fdc" alt=""></a>
-                <a href="https://www.mongodb.com/products/platform"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png" alt=""></a>
+    <section class="formdiv" id="formdivs">
+        <span class="contact">Contact Me:</span>
+        <form>
+            <input type="text" placeholder="Enter Your name"><br>
+            <input type="number" placeholder="Enter Your contact"><br>
+            <textarea placeholder="Write here"></textarea><br>
+            <button class="btns">Submit</button>
+        </form>
+    </section>
 
-                <a href="https://www.w3schools.com/nodejs/"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Inter_Miami_CF_logo.svg/250px-Inter_Miami_CF_logo.svg.png" alt=""></a>
+    <section class="Achievements" id="ach">
+        <h2>Achievements</h2>
 
-               <a href="https://react.dev/learn"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Escudo_del_Club_Atl%C3%A9tico_Newell%27s_Old_Boys_de_Rosario.svg/976px-Escudo_del_Club_Atl%C3%A9tico_Newell%27s_Old_Boys_de_Rosario.svg.png" alt=""></a>
-               <a href="https://expressjs.com/"> <img src="https://ichef.bbci.co.uk/ace/standard/480/cpsprodpb/2052/live/4d614ac0-f52c-11eb-8617-87bebb01a75e.jpg" alt=""></a>
+       <div class="gallery"> 
+           <img src="https://preview.redd.it/messis-trophy-cabinet-v0-kkh8ncr50w6a1.jpg?auto=webp&s=e2dee2d4222ca4dd6563489df17ef8f495953735" alt="" class="aa">
+           <img src="https://www.fcbarcelona.com/photo-resources/2023/08/20/5fa7b9d1-1dc2-49ef-99a3-f6c871fe7dde/mini_RodadePremsaComiatLeoMessi08082021_pic_2021-08-08despedidamessi50.jpg?width=1200&height=750" alt="" class="aa">
+           <img src="https://www.fcbarcelona.com/photo-resources/2019/04/24/03d97167-43a9-4b31-a4bf-31b0a4d1e2f9/mini_FCB_Liga-Victory_Header.jpg?width=1200&height=750" alt="" class="aa">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9bVsIFykHEK74Um84dPNDDCVtJ8NvkOIWMA&s" alt="" class="aa">
+           <img src="https://s.ndtvimg.com/images/stories/messi-goldenboot300.jpg" alt="" class="aa">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxBnrZGShjW0Xl0GBl3QctE66X90HTWVdTAw&s" alt="" class="aa">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv7DR3JBzdX_dOdUb_Abv7G2_j_UK27Uqr3w&s" alt="" class="aa">
+           <img src="https://www.hindustantimes.com/ht-img/img/2023/12/07/1600x900/SOCCER-WORLDCUP-ARG--0_1672490697849_1672490697849_1701948160951.JPG" alt="" class="aa">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9BIQPDAQn3J1P8OZ6-O80pjxi_tYs4NdzFhvW_s_Frc7tEgNuqqi8qIkYjCsGGuzfsp4&usqp=CAU" alt="" class="aa">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaU68VZ6MSdH73XgvB5lDU48YX6XpdKtQT-g&s" alt="" class="aa">
+       </div>
+    </section>
 
-
-            </section>
-
-
-        </section>
-
-        <section class="formdiv" id="formdivs">
-            <span class="contact">Contact Me:</span>
-           <section class="form">
-             <form action="">
-                <input type="text" placeholder="Enter Your name"><br>
-                <input type="number" placeholder="Enter Your contact"><br>
-                <textarea name="" id="" placeholder="Write here"></textarea><br>
-                <button class="btns">Submit</button>
-
-
-            </form>
-           </section>
-        </section>
-        <section>
-       
-        </section>
-
- <section class="Achievements" id="Achievements">
-    <h2 id="ach">Achievements</h2>
-
-    <div class="gallery">
-        <img src="https://preview.redd.it/messis-trophy-cabinet-v0-kkh8ncr50w6a1.jpg?auto=webp&s=e2dee2d4222ca4dd6563489df17ef8f495953735" alt="" class="aa" >
-        <img src="https://www.fcbarcelona.com/photo-resources/2023/08/20/5fa7b9d1-1dc2-49ef-99a3-f6c871fe7dde/mini_RodadePremsaComiatLeoMessi08082021_pic_2021-08-08despedidamessi50.jpg?width=1200&height=750" alt="" class="aa" >
-        <img src="https://www.fcbarcelona.com/photo-resources/2019/04/24/03d97167-43a9-4b31-a4bf-31b0a4d1e2f9/mini_FCB_Liga-Victory_Header.jpg?width=1200&height=750" alt="" class="aa">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9bVsIFykHEK74Um84dPNDDCVtJ8NvkOIWMA&s" alt="" class="aa">
-        <img src="https://s.ndtvimg.com/images/stories/messi-goldenboot300.jpg" alt="" class="aa">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxBnrZGShjW0Xl0GBl3QctE66X90HTWVdTAw&s" alt="" class="aa">
-
-
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv7DR3JBzdX_dOdUb_Abv7G2_j_UK27Uqr3w&s" alt="" class="aa">
-        <img src="https://www.hindustantimes.com/ht-img/img/2023/12/07/1600x900/SOCCER-WORLDCUP-ARG--0_1672490697849_1672490697849_1701948160951.JPG" alt="" class="aa">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9BIQPDAQn3J1P8OZ6-O80pjxi_tYs4NdzFhvW_s_Frc7tEgNuqqi8qIkYjCsGGuzfsp4&usqp=CAU" alt="" class="aa">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaU68VZ6MSdH73XgvB5lDU48YX6XpdKtQT-g&s" alt="" class="aa">
-
-
-
-    </div>
 </section>
-
-
-
 
 <footer>
-        <span id="email"> Messi@gmail.com</span><br><br><br>
-        <span id="number">World cup Winner</span>
-        <br><br>
-        <span>find me on</span>
-        <a href="https://www.instagram.com/leomessi/"><img class="githubs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcRd69dtzZByi9j4kydoquZCnxTAQW3que2w&s"></a>
-    </footer>
+    <span id="email">Messi@gmail.com</span><br><br>
+    <span id="number">World cup Winner</span><br><br>
+    <span>find me on</span>
 
+    <a href="https://www.instagram.com/leomessi/">
+        <img class="githubs" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcRd69dtzZByi9j4kydoquZCnxTAQW3que2w&s">
+    </a>
+</footer>
 
+<script src="script.js"></script>
 
-    
 </body>
 </html>
