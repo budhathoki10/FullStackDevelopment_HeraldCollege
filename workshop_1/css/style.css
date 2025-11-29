@@ -29,7 +29,7 @@
     background-color: rgb(165, 177, 165);
     justify-content: space-between;
     border-radius: 12px;
-margin: 25px;
+    margin: 25px;
     position: sticky;
     top: 0; 
 
@@ -68,12 +68,12 @@ margin: 25px;
 }
 .images{
     height: 580px;
-    width: 500px;
+    width: 560px;
     border-radius: 12px;
     position: absolute;
     top: 5%;
     display: inline-block;
-    left: 64%;
+    left: 62%;
     object-fit: fill;
 }
 #hello{
@@ -176,7 +176,7 @@ input,textarea {
     text-decoration:underline;
 
 }
-/*footer{
+footer{
     background-color: rgb(205, 156, 156);
 padding: 12px;
     height: 200px;
@@ -184,7 +184,7 @@ padding: 12px;
 justify-content: center;
 align-items: center;
 display: flex;
-    margin: 12px;
+margin-top: 136px;
 
 }
 .githubs{
@@ -192,6 +192,7 @@ display: flex;
     height: 75px;
     width: 75px;
     border-radius: 50%;
+    object-fit: cover;
 }
 footer span{
     font-size:small;
@@ -201,10 +202,10 @@ footer span{
    margin: 12px;
   
 }
-*/
+
 .Achievements {
     text-align: center;
-    margin: 40px 0px;
+    margin: 80px 0px;
 }
 
 .Achievements h2 {
@@ -232,7 +233,7 @@ footer span{
 }
 
 .gallery img:hover {
-    transform: scale(1.05);
+    transform: scale(1.5);
 
 }
 .gallery img{
