@@ -55,6 +55,9 @@ form.addEventListener("submit", (e) => {
       const dataid= Math.max(...idofdata)
       new_id =dataid+1
     }
+    else{
+        new_id=0;
+    }
     
   const newmovie = {
     id:String(new_id),
