@@ -7,12 +7,6 @@
       "year": 2010
     },
     {
-      "id": "2",
-      "title": "Pulp Fiction",
-      "genre": "Crime",
-      "year": 1994
-    },
-    {
       "id": "3",
       "title": "Dune",
       "genre": "Sci-Fi",
@@ -21,8 +15,8 @@
     {
       "id": "4",
       "title": "Lionel",
-      "genre": "Messi",
-      "year": 1987
+      "year": 1987,
+      "genre": "Messi"
     }
   ]
 }

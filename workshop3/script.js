@@ -14,11 +14,12 @@ function rendermovies(moviestodisplay) {
   moviestodisplay.forEach((movie) => {
     const movieelement = document.createElement("div");
     movieelement.innerHTML = `
-        <p><strong>${movie.title}</strong> (${movie.year}) - ${movie.genre}</p>
+
+        <p class="para"><strong>${movie.title}</strong> (${movie.year}) - ${movie.genre}</p>
         <button onclick="editMoviePrompt(${movie.id}, '${movie.title}', ${movie.year},
         '${movie.genre}')">Edit</button>
-        <button onclick="deleteMovie(${movie.id})">Delete</button>
-        `;
+        <button class="dlt" onclick="deleteMovie(${movie.id})">Delete</button><br><br><br>
+        `
     movieListDiv.appendChild(movieelement);
   });
 }
