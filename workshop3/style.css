@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    width: max-content;
+    background-color: rgb(105, 172, 189);
+    border-radius: 12px;
+    padding: 16px;
+    margin: 50px auto;
+}
+form {
+        width: 500px;
+        background: white;
+        padding: 40px;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 10px 10px 12px rgba(0,0,0,0.1);
+    }
+      form h3 {
+
+        text-align: center;
+        color: #333;
+    }
+
+        input[type="text"], input[type="number"] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 15px;
+        }
+
+button {
+        width:100%;
+        padding: 12px;
+        background: #b4b46c;
+        color: white;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+        .para{
+            color:red;
+                text-align: center;
+            font-size: larger;
+            font-weight: bolder;
+            
+        }
+        
+  button:hover {
+        background: #a4e450;
+    }
+        h2 {
+        text-align: center;
+        color: #444;
+        margin-top: 10px;
+    }
+        #search-input {
+        width: 350px;
+        display: block;
+        margin: 24px auto;
+        padding: 10px;
+        font-size: 15px;
+        border: 1px solid #bbb;
+        border-radius: 6px;
+    }
+        #movie-list {
+        width: 90%;
+        max-width: 800px;
+        margin: 20px auto;
+
+    }
+
+    .delete-btn {
+        padding: 8px;
+        background: #ff4d4d;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+.dlt:hover{
+    background-color: red;
+}
