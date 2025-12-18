@@ -1,0 +1,18 @@
+[
+    {
+        "name": "pedri",
+        "email": "pedri@gmail.com",
+        "skills": [
+            "visionarypass",
+            " one touch pass"
+        ]
+    },
+    {
+        "name": "lewandowski",
+        "email": "lewa@gmail.com",
+        "skills": [
+            "finishing",
+            " passing"
+        ]
+    }
+]
