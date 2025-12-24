@@ -1,5 +1,6 @@
 <?php
 function uploadPortfolioFile($file) {
+    // print_r(file);
     try {
         if ($file['error'] !== UPLOAD_ERR_OK) {
             throw new Exception("Upload error");
