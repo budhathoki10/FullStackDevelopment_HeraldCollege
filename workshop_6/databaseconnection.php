@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username   = "root";
-$password   = "";
+$username   = "NP03CS4A240072";
+$password   = "jVmOwQ9Ztm";
 
 
 $conn = mysqli_connect($servername, $username, $password);
@@ -11,7 +11,7 @@ if (!$conn) {
 }
 
 
-$database = "CREATE DATABASE if not exists  week6_workshops";
+$database = "CREATE DATABASE if not exists  NP03CS4A240072";
 if (mysqli_query($conn, $database)) {
     // echo "Successfully created database<br>";
 } else {
@@ -19,7 +19,7 @@ if (mysqli_query($conn, $database)) {
 }
 
 
-mysqli_select_db($conn, "week6_workshops");
+mysqli_select_db($conn, "NP03CS4A240072");
 
 
 $table = "CREATE TABLE if not exists kushal (
