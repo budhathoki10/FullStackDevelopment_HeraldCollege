@@ -14,5 +14,22 @@
             "finishing",
             " passing"
         ]
+    },
+    {
+        "name": "kushal",
+        "email": "budhathokikushal170@gmail.com",
+        "skills": [
+            "py",
+            "java",
+            "js"
+        ]
+    },
+    {
+        "name": "shyam",
+        "email": "shaym@gmail.com",
+        "skills": [
+            "comuter",
+            " py"
+        ]
     }
 ]

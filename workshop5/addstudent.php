@@ -26,12 +26,10 @@ if(empty($skills)){
 
 if(empty($erros)){
 save_student($name,$email,$skills);
+header("Location:students.php");
 
 }
 }
-
-
-
 ?>
 
 <!DOCTYPE html>

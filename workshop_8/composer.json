@@ -1,0 +1,19 @@
+{
+    "name": "kushalbudhathoki/workshop_8",
+    "autoload": {
+        "psr-4": {
+            "Kushalbudhathoki\\Workshop8\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kushal budhathoki"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "jenssegers/blade": "^1.4"
+    }
+}
+
+

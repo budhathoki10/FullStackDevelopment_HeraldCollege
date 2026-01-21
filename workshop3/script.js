@@ -1,4 +1,4 @@
-
+// json-server --watch movies.json
 const movieListDiv = document.getElementById("movie-list");
 const searchInput = document.getElementById("search-input");
 const form = document.getElementById("add-movie-form");
